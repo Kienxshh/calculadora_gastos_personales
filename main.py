@@ -10,6 +10,7 @@ print("""
 ==============================
 """)
 
+
 gasto1 = float(input("Ingrese el primer gasto\n"))
 gasto2 = float(input("Ingrese el segundo gasto\n"))
 gasto3 = float(input("Ingrese el tercer gasto\n"))
@@ -24,6 +25,6 @@ print()
 print("          RESULTADOS")
 print()
 print("================================")
-print(f"total de gastos: ${total}")
-print(f"Promedio de gastos: ${promedio}")
+print(f"total de gastos: ${total:.0f}")
+print(f"Promedio de gastos: ${promedio:.2f}")
 print(f"Clasificacion: {clasificacion}")

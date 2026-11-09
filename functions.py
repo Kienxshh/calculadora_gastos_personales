@@ -7,11 +7,11 @@ def calcular_promedio(total, cantidad):
 
 def clasificar_gasto(total):
     if total <= 5000:
-        return
+        return "Gasto Bajo"
     elif total <= 10000:
-        return
+        return "Gasto Moderado"
     else:
-        return
+        return "Gasto elevado"
 
     
     
